@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Go Trip</title>
+</head>
+
+<body>
+
+    <!--===========Nav Bar=================-->
+    <header class="nav-bar">
+        <div class="logo">Go Trip</div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="#">Package</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--===============Banner================-->
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1>Find your Next Tour!</h1>
+            </div>
+            <form class="form" action="your-action-url" method="POST">
+                <input type="text" list="mylist" placeholder="Where would you like to go?" required>
+                <datalist id="mylist">
+                    <option value="London"></option>
+                    <option value="Canada"></option>
+                    <option value="Monaco"></option>
+                    <option value="France"></option>
+                    <option value="Japan"></option>
+                    <option value="Switzerland"></option>
+                    <option value="Seoul"></option>
+                </datalist>
+                <input type="date" class="date" required>
+                <button type="submit" class="book">Book</button>
+            </form>
+        </div>
+    </section>
+
+    <!--=========Services===============-->
+    <section class="services">
+        <div class="service-item">
+            <img src="/OIP.jpg" alt="8000+ Our Local Guides">
+            <h2>8000+ Our Local Guides</h2>
+        </div>
+        <div class="service-item">
+            <img src="/Paris_GettyImages-601763009.webp" alt="100% Trusted Tour Agency">
+            <h2>100% Trusted Tour Agency</h2>
+        </div>
+        <div class="service-item">
+            <img src="/OIP (1).jpg" alt="28+ Years of Travel Experience">
+            <h2>28+ Years of Travel Experience</h2>
+        </div>
+        <div class="service-item">
+            <img src="/795f4dfa-d536-4b79-80e9-8b2369140283-12_-_NYC.webp" alt="98% Our Travelers are Happy">
+            <h2>98% Our Travelers are Happy</h2>
+        </div>
+    </section>
+
+    <!--==============Places===================-->
+    <section class="places">
+        <div class="places-text">
+            <small>FEATURED TOURS PACKAGES</small>
+            <h2>Favourite Places</h2>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="/Travel-Download-Free-Images-HD.jpg" alt="The Dark Forest Adventure">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>The Dark Forest Adventure</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">🕓 3 Days</p>
+                        <p class="location">✈ Vancouver, Canada</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar card structure for other tours -->
+            <div class="card">
+                <div class="zoom-img">
+                    <div class="img-card">
+                        <img src="/Travel-Download-Free-Images-HD.jpg" alt="The Dark Forest Adventure in Paris">
+                    </div>
+                </div>
+                <div class="text">
+                    <span class="rating">⭐⭐⭐⭐⭐</span>
+                    <h2>The Dark Forest Adventure</h2>
+                    <p class="cost">$1870 / Per Person</p>
+                    <div class="card-box">
+                        <p class="time">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="/OIP.jpg" alt="The Dark Forest Adventure in Monaco">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Monaco, Monaco</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="/OIP.jpg" alt="The Dark Forest Adventure in Bern">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Bern, Switzerland</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="/795f4dfa-d536-4b79-80e9-8b2369140283-12_-_NYC.webp" alt="The Dark Forest Adventure in Seoul">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Seoul, South Korea</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="/download.jpeg" alt="The Dark Forest Adventure in Tokyo">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Tokyo, Japan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!--===========About Us===============-->
+        <section class="about">
+            <div class="about-img">
+                <img src="/Travel-Download-Free-Images-HD.jpg" alt="About Our Company">
+            </div>
+            <div class="about-text">
+                <small>ABOUT OUR COMPANY</small>
+                <h2>We are Go Trip Travel Support Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <label><input type="checkbox" checked> Lorem ipsum dolor sit amet</label>
+                <label><input type="checkbox" checked> consectetur adipisicing elit</label>
+                <label><input type="checkbox" checked> Architecto atque consequuntur</label>
+                <label><input type="checkbox" checked> cupiditate doloremque ducimus</label>
+                <a href="#">ABOUT US</a>
+            </div>
+        </section>
+    
+        <!--===========Footer=================-->
+        <footer class="footer">
+            <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Offers & Discounts</a></li>
+                    <li><a href="#">Get Coupon</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>New Products</h3>
+                <ul>
+                    <li><a href="#">Woman's Clothing</a></li>
+                    <li><a href="#">Fashion Accessories</a></li>
+                    <li><a href="#">Men's Accessories</a></li>
+                    <li><a href="#">Rubber Made Toys</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Frequently Asked Questions</a></li>
+                    <li><a href="#">Report a Payment Issue</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </footer>
+    
+    </body>
+    
+    </html>
